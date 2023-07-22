@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Statistics from "./Statistics";
-import FeedbackOptions from "./FeedbackOptions";
-import Section from "./Section";
-import Notification from "./Notification";
+import PropTypes from "prop-types";
+import Statistics from "../Statistics/Statistics";
+import FeedbackOptions from "../FeedbackOptions/FeedbackOptions";
+import Section from "../Section/Section";
+import Notification from "../Notification/Notification";
 
 class FeedbackWidget extends Component {
   state = {
@@ -61,5 +62,12 @@ class FeedbackWidget extends Component {
     );
   }
 }
+
+FeedbackWidget.propTypes = {
+  good: PropTypes.number,
+  neutral: PropTypes.number,
+  bad: PropTypes.number,
+  handleFeedback: PropTypes.func,
+};
 
 export default FeedbackWidget;

@@ -1,6 +1,5 @@
 import React from "react";
-import FeedbackWidget from './FeedbackWidget/FeedbackWidget';
-import '../index.css';
+import FeedbackWidget from '../FeedbackWidget/FeedbackWidget';
 
 export const App = () => {
   return (

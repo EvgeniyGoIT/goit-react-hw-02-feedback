@@ -8,6 +8,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 91, 187, 0.8) 0%,
+      rgba(0, 91, 187, 0.6) 40%,
+      rgba(254, 223, 0, 0.6) 40%,
+      rgba(254, 223, 0, 0.8) 70%
+    ),
+    url(./Img/fontkan.jpg);
+  background-size: cover;
 }
 
 code {
@@ -15,16 +24,5 @@ code {
     monospace;
 }
 
-button {
-  width: 200px;
-  padding: 10px 20px;
-  background-color: #9f9f95;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #0056b3;
-}
+

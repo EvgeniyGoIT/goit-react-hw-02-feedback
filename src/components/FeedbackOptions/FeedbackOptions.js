@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import './FeedbackOptions.Style.css'
 
 const FeedbackOptions = ({ options, onClickFeedback }) => {
   return (
@@ -12,6 +14,11 @@ const FeedbackOptions = ({ options, onClickFeedback }) => {
       ))}
     </ul>
   );
+};
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onClickFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
