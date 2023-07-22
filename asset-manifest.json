@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-feedback/static/css/main.313a667d.css",
+    "main.css": "/goit-react-hw-02-feedback/static/css/main.f56e7f2d.css",
     "main.js": "/goit-react-hw-02-feedback/static/js/main.08a4abcb.js",
+    "static/media/fontkan.jpg": "/goit-react-hw-02-feedback/static/media/fontkan.478d866bd5ded54dd176.jpg",
     "index.html": "/goit-react-hw-02-feedback/index.html",
-    "main.313a667d.css.map": "/goit-react-hw-02-feedback/static/css/main.313a667d.css.map",
+    "main.f56e7f2d.css.map": "/goit-react-hw-02-feedback/static/css/main.f56e7f2d.css.map",
     "main.08a4abcb.js.map": "/goit-react-hw-02-feedback/static/js/main.08a4abcb.js.map"
   },
   "entrypoints": [
-    "static/css/main.313a667d.css",
+    "static/css/main.f56e7f2d.css",
     "static/js/main.08a4abcb.js"
   ]
 }
